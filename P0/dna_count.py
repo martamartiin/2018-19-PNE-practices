@@ -1,0 +1,7 @@
+seqDNA= input("Introduce here the sequence:")
+seqDNA = seqDNA.upper()
+A_bases = seqDNA.count("A")
+G_bases = seqDNA.count("G")
+T_bases = seqDNA.count("T")
+C_bases = seqDNA.count("C")
+print("The number of bases present are:\n A:", A_bases, "\n G:", G_bases, "\n T:", T_bases, "\n C:", C_bases)
