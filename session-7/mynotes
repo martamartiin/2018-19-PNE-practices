@@ -1,0 +1,52 @@
+CLIENT AND SERVER SYSTEM
+
+- The client is the one who starts the communication. He does a request to the server, then the server responds.
+ The server can attend the number of cients he had specified before, he can attend many requests. If there is no client,
+ there is no problem because the client will be there waiting until there is onw. But on the other hand, the client
+ needs an executed server for being functional.
+
+-Client and server programs can be on the same computer or on different ones. We can find this kind of programs on
+mobile phones, tablets, laptops, etc.
+
+- Internet is in charge of connecting the programs by many computers interconnected in networks. The IP adress is
+related with the network interface so thisi is the reasson why computers may have more than one IP adress depending on
+it's connection.
+
+Activity 1: Find the IP address of your mobile phone.
+    IP mobile adress: 192.168.1.83
+
+Activity 2: IP adress of your coputer.
+    IP adress: 192.168.1.79
+
+ -Explain the Ping command: This command let us to see how the connection is working, also it measures the time it
+ takes for the Ping command to reach the machine and return.
+
+ Activity 3:
+ C:\Users\Pablo>ping 8.8.8.8
+
+Haciendo ping a 8.8.8.8 con 32 bytes de datos:
+Respuesta desde 8.8.8.8: bytes=32 tiempo=11ms TTL=119
+Respuesta desde 8.8.8.8: bytes=32 tiempo=9ms TTL=119
+Respuesta desde 8.8.8.8: bytes=32 tiempo=9ms TTL=119
+Respuesta desde 8.8.8.8: bytes=32 tiempo=7ms TTL=119
+
+Tiempos aproximados de ida y vuelta en milisegundos:
+    Mínimo = 7ms, Máximo = 11ms, Media = 9ms
+
+
+URL: identifying a computer interface for humans. The URL has an IP address.
+Activity 7:
+    ping to www.google.com: 216.58.211.228 (IP direction)
+Activity 8:
+    ping to www.urjc.es: 212.128.240.50
+
+Port: inside a mobilem tablet, computer, etc; we have many different applications, the port refers to the applications
+that are available to connect. For indentifying app we use the pair (IP, port)
+
+Socket: the place were the client connects for communicating with the server.
+
+
+
+
+Hey, this is just what I want to add to my notes.
+Hey, this is just what I want to add to my notes.
