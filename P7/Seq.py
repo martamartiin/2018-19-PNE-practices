@@ -1,3 +1,4 @@
+#create class "Seq"
 class Seq:
     def __init__(self, strbases):
         self.strbases = strbases
