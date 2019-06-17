@@ -2,7 +2,7 @@ import http.client
 import json
 import requests
 import sys
-from seq import Seq
+from Seq import Seq
 
 SERVER = "http://rest.ensembl.org"
 ext = "/sequence/id/ENSG00000165879"
