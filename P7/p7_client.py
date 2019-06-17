@@ -23,7 +23,7 @@ sequence = dict['seq']
 sequence = Seq(sequence)
 
 len_seq = sequence.len()
-print("Length of the sequence:" , len_seq)
+print(" The length of the sequence:" , len_seq)
 
 t_bases = sequence.count("T")
 print("Number of T bases:", t_bases)
